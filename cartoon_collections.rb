@@ -5,9 +5,11 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  planeteers = []
   array.each do |planeteer|
-    planeteer = planeteer.capitalize + "!"
+    planeteers << planeteer.capitalize + "!"
   end
+  return planeteers
 end
 
 def long_planeteer_calls# code an argument here
