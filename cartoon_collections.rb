@@ -3,7 +3,7 @@ def roll_call_dwarves(array)
   array.each_with_index do |dwarf, index|
     dwarves << "#{index}. #{dwarf}"
   end
-  dwarves
+  return dwarves.join(",")
 end
 
 def summon_captain_planet# code an argument here
